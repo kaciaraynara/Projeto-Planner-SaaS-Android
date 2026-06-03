@@ -2,9 +2,8 @@
 
 ## Informações do Aluno
 
-Nome: Raynara Magalhães  
-Matrícula: COLOCAR MATRÍCULA  
-Data de Entrega: 05/06/2026  
+Nome: RAYNARA KÁCIA MAGALHÃES FONTELES
+Data de Entrega: 04/06/2026
 
 ---
 

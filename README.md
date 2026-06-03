@@ -43,7 +43,6 @@ Durante o desenvolvimento foram implementadas as seguintes funcionalidades:
 
 - Cadastro de projetos
 - Listagem dos projetos cadastrados
-- Tela  de  detalhes  do  projeto
 - Definição de prioridade
 - Definição de status
 - Adição de imagens usando a galeria do celular
@@ -66,8 +65,6 @@ As principais tecnologias utilizadas foram:
 - StateFlow
 - DataStore
 - Material Design 3
-- Coil
-
 
 ---
 

@@ -54,7 +54,7 @@ Durante o desenvolvimento foram implementadas as seguintes funcionalidades:
 
 ---
 
-# Tecnologias Utilizadas
+# Tecnologia Utilizada
 
 As principais tecnologias utilizadas foram:
 

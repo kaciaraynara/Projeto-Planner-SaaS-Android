@@ -2,25 +2,25 @@
 
 ## Informações do Aluno
 
-## Nome: RAYNARA KÁCIA MAGALHÃES FONTELES
+Nome: Raynara Kácia Magalhães Fonteles
 
-## Data de Entrega: 04/06/2026
+Data de entrega: 03/06/2026  
 
 ---
 
-# Tema do Projeto
+# Sobre o Projeto
 
-Aplicativo Android para organização e gerenciamento de projetos voltado para desenvolvedores.
+O Planner SaaS é um aplicativo Android desenvolvido com o objetivo de ajudar na organização e gerenciamento de projetos. A ideia principal foi criar uma ferramenta voltada principalmente para desenvolvedores, já que durante o desenvolvimento de software normalmente existem muitas tarefas, prazos e informações espalhadas.
+
+O aplicativo funciona como uma agenda de gerenciamento, permitindo cadastrar projetos, organizar informações importantes e acompanhar o andamento de cada projeto.
 
 ---
 
 # Objetivo do Projeto
 
-O objetivo deste projeto foi desenvolver uma aplicação Android voltada para organização e gerenciamento de projetos, auxiliando desenvolvedores no acompanhamento das suas atividades, tarefas e demandas durante o processo de desenvolvimento de software.
+O objetivo do projeto foi desenvolver um aplicativo que ajudasse desenvolvedores a organizar melhor seus projetos e atividades, trazendo mais organização e eficiência durante o desenvolvimento.
 
-A proposta principal do aplicativo é oferecer uma ferramenta prática para melhorar a organização, aumentar a produtividade e facilitar o gerenciamento das etapas de um projeto, reunindo informações importantes em um único ambiente.
-
-Além disso, o projeto teve como objetivo aplicar conceitos estudados durante a disciplina, utilizando arquitetura moderna, persistência local de dados e desenvolvimento de interfaces nativas para Android.
+Além disso, o projeto também teve como objetivo colocar em prática conteúdos estudados durante a disciplina, principalmente desenvolvimento Android, persistência de dados, arquitetura MVVM e construção de interfaces modernas.
 
 ---
 
@@ -28,76 +28,70 @@ Além disso, o projeto teve como objetivo aplicar conceitos estudados durante a 
 
 O aplicativo foi pensado principalmente para:
 
-- Desenvolvedores iniciantes
-- Desenvolvedores freelancers
+- Desenvolvedores
 - Estudantes da área de tecnologia
-- Equipes pequenas de desenvolvimento
-- Profissionais que necessitam organizar múltiplos projetos simultaneamente
+- Freelancers
+- Pessoas que trabalham com vários projetos ao mesmo tempo
 
-Embora tenha sido pensado inicialmente para desenvolvedores, o aplicativo pode ser adaptado para qualquer usuário que precise gerenciar projetos pessoais ou profissionais.
-
----
-
-# Justificativa da Escolha do Tema
-
-A escolha do tema surgiu a partir da necessidade frequente de organização durante o desenvolvimento de projetos de software. Muitas vezes, tarefas, prazos e informações importantes ficam distribuídas em diferentes ferramentas.
-
-Com isso, surgiu a ideia de desenvolver uma aplicação própria para centralizar informações dos projetos e permitir um gerenciamento mais organizado.
-
-O tema também permitiu aplicar conteúdos importantes estudados na disciplina, como persistência local, arquitetura MVVM, gerenciamento de estado e construção de interfaces modernas.
+Mesmo sendo pensado inicialmente para desenvolvedores, ele também pode ser utilizado para organização pessoal.
 
 ---
 
 # Funcionalidades Implementadas
 
+Durante o desenvolvimento foram implementadas as seguintes funcionalidades:
+
 - Cadastro de projetos
-- Listagem de projetos cadastrados
-- Visualização detalhada
+- Listagem dos projetos cadastrados
+- Tela de detalhes do projeto
 - Definição de prioridade
 - Definição de status
-- Inserção de imagens pela galeria
+- Adição de imagens usando a galeria do celular
 - Definição de prazo
-- Personalização de temas e cores
+- Temas personalizados
+- Alteração de cores do aplicativo
 - Armazenamento local dos dados
-- Persistência das preferências do usuário
 
 ---
 
 # Tecnologias Utilizadas
 
+As principais tecnologias utilizadas foram:
+
 - Kotlin
 - Jetpack Compose
-- Material Design 3
 - Room Database
 - Navigation Compose
 - MVVM
 - StateFlow
 - DataStore
+- Material Design 3
 - Coil
 
 ---
 
-# Funcionamento do Aplicativo
+# Como o Aplicativo Funciona
 
-O aplicativo inicia exibindo a lista de projetos cadastrados.
+Ao abrir o aplicativo, o usuário consegue visualizar os projetos cadastrados.
 
-O usuário pode:
+Para adicionar um novo projeto, basta preencher as informações necessárias, como:
 
-1. Criar novos projetos
-2. Adicionar informações detalhadas
-3. Definir prioridades
-4. Inserir imagens relacionadas
-5. Definir prazos
-6. Personalizar aparência e cores do sistema
-7. Consultar detalhes posteriormente
+- título
+- descrição
+- prioridade
+- status
+- prazo
+- imagem
 
-Todas as informações ficam armazenadas localmente utilizando Room Database.
+Todas as informações ficam armazenadas localmente no dispositivo.
+
+Também foi criada uma área de configurações onde o usuário pode personalizar o tema e as cores do aplicativo.
 
 ---
 
-# Arquitetura Utilizada
+# Organização do Projeto
 
-O projeto foi estruturado utilizando o padrão MVVM (Model-View-ViewModel), buscando separar responsabilidades e facilitar manutenção e organização do código.
+O projeto foi organizado utilizando arquitetura MVVM para separar melhor as responsabilidades.
 
 Estrutura principal:
 
@@ -107,3 +101,31 @@ repository/
 viewmodel/
 ui/
 datastore/
+```
+
+---
+
+# Dificuldades Encontradas
+
+Durante o desenvolvimento surgiram algumas dificuldades, principalmente relacionadas à configuração do ambiente, integração de funcionalidades e testes no emulador Android.
+
+Parte dessas dificuldades foi resolvida utilizando dispositivo físico para validação do aplicativo.
+
+---
+
+# Como Executar
+
+1. Clonar o repositório  
+2. Abrir o projeto no Android Studio  
+3. Sincronizar as dependências  
+4. Executar no celular ou emulador Android  
+
+---
+
+# Considerações Finais
+O desenvolvimento desse projeto permitiu aplicar conceitos estudados durante a disciplina e entender melhor como funciona o desenvolvimento Android utilizando ferramentas modernas.
+
+Além disso, foi possível trabalhar organização de código, persistência de dados e construção de interfaces utilizando Compose.
+O desenvolvimento desse projeto permitiu aplicar conceitos estudados durante a disciplina e entender melhor como funciona o desenvolvimento Android utilizando ferramentas modernas.
+
+Além disso, foi possível trabalhar organização de código, persistência de dados e construção de interfaces utilizando Compose.

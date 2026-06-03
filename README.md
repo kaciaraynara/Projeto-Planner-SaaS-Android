@@ -68,6 +68,7 @@ As principais tecnologias utilizadas foram:
 - Material Design 3
 - Coil
 
+
 ---
 
 # Como o Aplicativo Funciona

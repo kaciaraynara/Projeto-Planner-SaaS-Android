@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Modern Material 3 Theme Parent -->
+    <style name="Theme.PlannerSaaS" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Optional: Customize status bar color if not using enableEdgeToEdge -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+</resources>

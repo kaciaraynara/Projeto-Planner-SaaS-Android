@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Planner SaaS</string>
+    <string name="home_title">Planner SaaS</string>
+    <string name="no_projects">Nenhum projeto ainda.</string>
+    <string name="tap_to_add">Toque no + para criar o primeiro!</string>
+    <string name="created_at">Criado em: %1$s</string>
+    <string name="due_date">Prazo: %1$s</string>
+    <string name="status_label">Status: %1$s</string>
+
+    <string name="new_project">Novo Projeto</string>
+    <string name="title_hint">Título</string>
+    <string name="description_hint">Descrição</string>
+    <string name="priority_label">Prioridade</string>
+    <string name="status_selection_label">Status</string>
+    <string name="select_due_date">Selecionar Prazo</string>
+    <string name="add_image">Adicionar Imagem do Projeto</string>
+    <string name="save_project">Salvar Projeto</string>
+
+    <string name="project_details">Detalhes do Projeto</string>
+    <string name="delete_project">Excluir Projeto</string>
+    <string name="delete_confirmation">Tem certeza que deseja excluir este projeto? Esta ação não pode ser desfeita.</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Excluir</string>
+    <string name="no_description">Nenhuma descrição fornecida.</string>
+
+    <string name="settings">Configurações</string>
+    <string name="theme_mode">Modo do Tema</string>
+    <string name="system">Sistema</string>
+    <string name="light">Claro</string>
+    <string name="dark">Escuro</string>
+    <string name="color_palette">Paleta de Cores</string>
+    <string name="personalization">Personalização</string>
+    <string name="dynamic_colors">Cores Dinâmicas</string>
+    <string name="dynamic_colors_desc">Usar cores do sistema (Android 12+)</string>
+    <string name="language">Idioma</string>
+    <string name="confirm">Confirmar</string>
+
+    <string name="priority_high">Alta</string>
+    <string name="priority_medium">Média</string>
+    <string name="priority_low">Baixa</string>
+
+    <string name="status_active">Ativo</string>
+    <string name="status_pending">Pendente</string>
+    <string name="status_completed">Concluído</string>
+</resources>

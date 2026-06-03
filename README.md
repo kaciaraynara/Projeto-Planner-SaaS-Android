@@ -113,9 +113,12 @@ Parte dessas dificuldades foi resolvida utilizando dispositivo físico para vali
 
 # Como Executar
 
-1. Clonar o repositório.
+1. Clonar o Reposiório.
+   
 2. Abrir o projeto no Android Studio.
+   
 3. Sincronizar as dependências.
+   
 4. Executar no celular ou emulador Android.
 
 ---

@@ -1,48 +1,109 @@
-# Planner SaaS - Gestão Residencial e Organizacional
+# Planner SaaS
 
-Este projeto foi desenvolvido como uma solução prática para a organização e acompanhamento de projetos pessoais e profissionais. O foco principal é oferecer uma ferramenta fluida, com persistência local robusta e uma interface que se adapta ao gosto do usuário.
+## Informações do Aluno
 
-## 📌 Funcionalidades Principais
-
-*   **Gestão de Projetos:** Criação, visualização detalhada e exclusão de projetos.
-*   **Anexos Visuais:** Possibilidade de adicionar uma imagem de capa para cada projeto diretamente da galeria.
-*   **Controle de Prazos:** Definição de datas de entrega com suporte a calendários nativos.
-*   **Categorização:** Organização por prioridades (Alta, Média, Baixa) e status de progresso.
-*   **Personalização de Interface:**
-    *   Troca dinâmica entre modo claro e escuro.
-    *   Seleção de paletas de cores (Azul, Roxo, Verde, Laranja, Vermelho).
-    *   Suporte a Cores Dinâmicas (Material You) no Android 12+.
-    *   **Suporte Multi-idioma:** Opção de alternar entre Português e Inglês.
-    *   **Animações Fluídas:** Transições de tela e interações táteis animadas.
-
-## 🛠️ Tecnologias Utilizadas
-
-Para garantir um código moderno e de fácil manutenção, utilizei as seguintes tecnologias:
-
-*   **Linguagem:** Kotlin
-*   **UI:** Jetpack Compose (Material Design 3)
-*   **Arquitetura:** MVVM (Model-View-ViewModel)
-*   **Banco de Dados:** Room (SQLite local para os projetos)
-*   **Preferências:** DataStore (para salvar as escolhas de tema e cor)
-*   **Carregamento de Imagem:** Coil
-*   **Navegação:** Navigation Compose
-
-## 🏗️ Organização do Código
-
-O projeto segue uma estrutura organizada por camadas:
-
-*   `data/local/`: Contém a definição da entidade do banco de dados, o DAO e a configuração do Room.
-*   `data/datastore/`: Responsável por gerenciar as preferências de tema do usuário.
-*   `data/repository/`: Abstração que conecta a ViewModel aos dados.
-*   `ui/screens/`: As telas principais (Home, Cadastro, Detalhes e Configurações).
-*   `viewmodel/`: Lógica de negócio e ponte de dados para a interface.
-
-## 🚀 Como Executar
-
-1.  Certifique-se de ter o **Android Studio Jellyfish** ou superior.
-2.  O projeto é compatível com **Android API 26 (Android 8.0)** ou superior.
-3.  Após clonar o repositório, faça o **Gradle Sync**.
-4.  Execute o app em um dispositivo físico ou emulador.
+Nome: Raynara Magalhães  
+Matrícula: COLOCAR MATRÍCULA  
+Data de Entrega: 05/06/2026  
 
 ---
-**Nota Acadêmica:** Este projeto prioriza a estabilidade e a aplicação correta dos padrões de arquitetura recomendados pelo Google para o desenvolvimento Android moderno.
+
+# Tema do Projeto
+
+Aplicativo Android para organização e gerenciamento de projetos voltado para desenvolvedores.
+
+---
+
+# Objetivo do Projeto
+
+O objetivo deste projeto foi desenvolver uma aplicação Android voltada para organização e gerenciamento de projetos, auxiliando desenvolvedores no acompanhamento das suas atividades, tarefas e demandas durante o processo de desenvolvimento de software.
+
+A proposta principal do aplicativo é oferecer uma ferramenta prática para melhorar a organização, aumentar a produtividade e facilitar o gerenciamento das etapas de um projeto, reunindo informações importantes em um único ambiente.
+
+Além disso, o projeto teve como objetivo aplicar conceitos estudados durante a disciplina, utilizando arquitetura moderna, persistência local de dados e desenvolvimento de interfaces nativas para Android.
+
+---
+
+# Público-Alvo
+
+O aplicativo foi pensado principalmente para:
+
+- Desenvolvedores iniciantes
+- Desenvolvedores freelancers
+- Estudantes da área de tecnologia
+- Equipes pequenas de desenvolvimento
+- Profissionais que necessitam organizar múltiplos projetos simultaneamente
+
+Embora tenha sido pensado inicialmente para desenvolvedores, o aplicativo pode ser adaptado para qualquer usuário que precise gerenciar projetos pessoais ou profissionais.
+
+---
+
+# Justificativa da Escolha do Tema
+
+A escolha do tema surgiu a partir da necessidade frequente de organização durante o desenvolvimento de projetos de software. Muitas vezes, tarefas, prazos e informações importantes ficam distribuídas em diferentes ferramentas.
+
+Com isso, surgiu a ideia de desenvolver uma aplicação própria para centralizar informações dos projetos e permitir um gerenciamento mais organizado.
+
+O tema também permitiu aplicar conteúdos importantes estudados na disciplina, como persistência local, arquitetura MVVM, gerenciamento de estado e construção de interfaces modernas.
+
+---
+
+# Funcionalidades Implementadas
+
+- Cadastro de projetos
+- Listagem de projetos cadastrados
+- Visualização detalhada
+- Definição de prioridade
+- Definição de status
+- Inserção de imagens pela galeria
+- Definição de prazo
+- Personalização de temas e cores
+- Armazenamento local dos dados
+- Persistência das preferências do usuário
+
+---
+
+# Tecnologias Utilizadas
+
+- Kotlin
+- Jetpack Compose
+- Material Design 3
+- Room Database
+- Navigation Compose
+- MVVM
+- StateFlow
+- DataStore
+- Coil
+
+---
+
+# Funcionamento do Aplicativo
+
+O aplicativo inicia exibindo a lista de projetos cadastrados.
+
+O usuário pode:
+
+1. Criar novos projetos
+2. Adicionar informações detalhadas
+3. Definir prioridades
+4. Inserir imagens relacionadas
+5. Definir prazos
+6. Personalizar aparência e cores do sistema
+7. Consultar detalhes posteriormente
+
+Todas as informações ficam armazenadas localmente utilizando Room Database.
+
+---
+
+# Arquitetura Utilizada
+
+O projeto foi estruturado utilizando o padrão MVVM (Model-View-ViewModel), buscando separar responsabilidades e facilitar manutenção e organização do código.
+
+Estrutura principal:
+
+```text
+data/
+repository/
+viewmodel/
+ui/
+datastore/

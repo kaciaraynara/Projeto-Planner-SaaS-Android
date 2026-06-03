@@ -115,17 +115,14 @@ Parte dessas dificuldades foi resolvida utilizando dispositivo físico para vali
 
 # Como Executar
 
-1. Clonar o repositório  
-2. Abrir o projeto no Android Studio  
-3. Sincronizar as dependências  
-4. Executar no celular ou emulador Android  
+1. Clonar o repositório.
+2. Abrir o projeto no Android Studio.
+3. Sincronizar as dependências.
+4. Executar no celular ou emulador Android.
 
 ---
 
 # Considerações Finais
-O desenvolvimento desse projeto permitiu aplicar conceitos estudados durante a disciplina e entender melhor como funciona o desenvolvimento Android utilizando ferramentas modernas.
-
-Além disso, foi possível trabalhar organização de código, persistência de dados e construção de interfaces utilizando Compose.
 O desenvolvimento desse projeto permitiu aplicar conceitos estudados durante a disciplina e entender melhor como funciona o desenvolvimento Android utilizando ferramentas modernas.
 
 Além disso, foi possível trabalhar organização de código, persistência de dados e construção de interfaces utilizando Compose.
